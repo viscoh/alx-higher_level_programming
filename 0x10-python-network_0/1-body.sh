@@ -1,3 +1,3 @@
 #!/bin/bash
-# sends GET req to URL and display response body
-curl -sfL "$1" -X GET
+#Takes in a URL, GET request to that URL, and displays the response body
+curl -Ls "$1"
