@@ -1,10 +1,6 @@
 #!/usr/bin/python3
-# Lists the State object with the name passed as argument
-# from the database hbtn_0e_6_usa.
-# Usage: ./10-model_state_my_get.py <mysql username> /
-#                                   <mysql password> /
-#                                   <database name>
-#                                   <state name searched>
+"""Script that prints the State Onject with the name as an arg
+from the database"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
